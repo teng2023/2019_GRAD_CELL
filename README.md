@@ -4,7 +4,7 @@
 
 ## 檔案介紹
 
-Pattern (在資料夾dat_grad內)：
+### Pattern (在資料夾dat_grad內)
 
 Input data (一張64*64bits的灰階圖片)：**cnn_sti.dat**. 
 
@@ -18,4 +18,4 @@ Test Bench：**testfixture.v**
 
 ### *Pass the test bench simulation*
 
-**CONV_v1.v**：使用直接計算40個點與圓心的距離。
+**CONV_v1.v**：使用pipeline跟排程
