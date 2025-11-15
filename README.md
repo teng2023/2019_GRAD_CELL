@@ -21,4 +21,4 @@ Test Bench：**testfixture.v**
 
 ### *Pass the test bench simulation*
 
-**CONV_v1.v**：使用pipeline跟排程，convolution一格一格計算，算完feature map的一格就把答案寫回去，maxpooling也是算完一格就寫回去，flatten也是。不需要從中間的memory讀data出來，總計算時間相對快速。
+**CONV_v1.v**：使用排程的方式，convolution一格一格計算，算完feature map的一格就把答案寫回去，maxpooling也是算完一格就寫回去，flatten也是。不需要從中間的memory讀data出來，總計算時間相對快速。
