@@ -2,6 +2,9 @@
 
 ## 題目說明
 
+![Q1](https://github.com/teng2023/2019_GRAD_CELL/blob/main/Q1.png)
+![Q2](https://github.com/teng2023/2019_GRAD_CELL/blob/main/Q2.png)
+
 ## 檔案介紹
 
 ### Pattern (在資料夾dat_grad內)
@@ -18,4 +21,4 @@ Test Bench：**testfixture.v**
 
 ### *Pass the test bench simulation*
 
-**CONV_v1.v**：使用pipeline跟排程
+**CONV_v1.v**：使用pipeline跟排程，convolution一格一格計算，算完feature map的一格就把答案寫回去，maxpooling也是算完一格就寫回去，flatten也是。不需要從中間的memory讀data出來，總計算時間相對快速。
